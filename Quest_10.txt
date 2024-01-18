@@ -1,0 +1,60 @@
+﻿Basics of Matrices
+1. Write a program to add two matrices.
+2. Implement matrix subtraction for two given matrices.
+3. Create a function to perform scalar multiplication on a matrix.
+4. Write a method to transpose a matrix.
+5. Implement a program to check if two matrices are equal.
+	Matrix Multiplication
+1. Write a program to multiply two matrices.
+2. Implement an element-wise multiplication of two matrices.
+3. Create a function to multiply a matrix by a vector.
+4. Develop a method to calculate the dot product of two vectors.
+5. Implement a program for matrix-vector multiplication.
+	Determinants and Inverses
+1. Write a function to calculate the determinant of a 2x2 matrix.
+2. Implement a program to find the determinant of a 3x3 matrix.
+3. Create a function to compute the inverse of a 2x2 matrix.
+4. Write a method to find the inverse of a 3x3 matrix.
+5. Implement a program to verify if a matrix is invertible.
+	Systems of Linear Equations
+1. Solve a system of two linear equations using matrices.
+2. Implement a method to solve a system of three linear equations.
+3. Create a program to use matrix inversion to solve a system of equations.
+4. Write a function to check if a system of equations has no solution, one solution, or infinitely many solutions.
+5. Implement the Gaussian elimination method to solve a system of linear equations.
+	Eigenvalues and Eigenvectors
+1. Write a program to find the eigenvalues of a 2x2 matrix.
+2. Implement a method to compute the eigenvectors of a 2x2 matrix.
+3. Create a function to check if a given vector is an eigenvector of a matrix.
+4. Develop a program to find the characteristic polynomial of a matrix.
+5. Implement a procedure to demonstrate the power method for finding dominant eigenvalues.
+	Special Matrices and Properties
+1. Create a program to check if a matrix is symmetric.
+2. Implement a method to determine if a matrix is orthogonal.
+3. Write a function to check if a matrix is diagonal.
+4. Develop a program to identify if a matrix is a sparse matrix.
+5. Write a program to create an identity matrix of size n.
+	Matrix Decompositions
+1. Implement LU decomposition for a square matrix.
+2. Write a program for QR decomposition of a matrix.
+3. Create a function to perform singular value decomposition.
+4. Implement Cholesky decomposition for a symmetric positive-definite matrix.
+5. Write a method to find the rank of a matrix using its decomposition.
+	Vector Spaces and Subspaces
+1. Write a program to check if a set of vectors spans a vector space.
+2. Implement a method to find the basis of a vector space.
+3. Create a function to check if a vector is in the column space of a matrix.
+4. Develop a program to find the null space of a matrix.
+5. Write a function to calculate the dimension of a vector space.
+	Applications in Data Science
+1. Implement a program to perform principal component analysis (PCA) on a dataset.
+2. Write a function to use matrix operations for data normalization.
+3. Create a method to perform linear regression using matrix operations.
+4. Develop a program to apply matrix concepts in image processing (e.g., image rotation).
+5. Implement a method to use matrices in graph theory for network analysis.
+	Advanced Problems
+1. Solve for eigenvalues and eigenvectors of a complex matrix.
+2. Write a program to perform tensor multiplication.
+3. Implement Strassen's algorithm for matrix multiplication.
+4. Create a function to decompose a matrix into lower and upper triangular matrices.
+5. Write a method to explore the relationship between linear transformations and matrices.
