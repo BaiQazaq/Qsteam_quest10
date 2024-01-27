@@ -9,7 +9,7 @@ def determinant_2_2(mtrx):
     return scalar
 
 matrix = [
-    [2, 5, 2],
+    [2, 5],
     [6, 8]
 ]
 

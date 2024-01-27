@@ -1,7 +1,7 @@
 # Write a method to find the inverse of a 3x3 matrix
 from task2 import determinant_3x3
 
-def adjoint_mtrx(mtrx):
+def adjoint_mtrx(mtrx):  
     new_mtrx = []
     row1 = [mtrx[0][0], mtrx[0][1], mtrx[2][0]]
     row2 = [mtrx[1][0], mtrx[1][1], mtrx[2][1]]
@@ -11,7 +11,7 @@ def adjoint_mtrx(mtrx):
     new_mtrx.append(row3)
     return new_mtrx
 
-def algebraic_complement(mtrx):
+def algebraic_complement(mtrx):   #Алгебраические дополнения.
     row1 = []
     row2 = []
     row3 = []

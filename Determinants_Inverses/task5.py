@@ -10,12 +10,14 @@ def check_inverse(mtrx):
         res = determinant_2_2(mtrx)
         if res:
             print(f"Matrix is invertible")
+            return 2
         else:
             print(f"Matrix is NOT invertible")
     elif len(mtrx) == 3:
         res = determinant_3x3(mtrx)
         if res:
             print(f"Matrix is invertible")
+            return 3
         else:
             print(f"Matrix is NOT invertible")
 
@@ -32,7 +34,7 @@ matrix_3 = [
     [0, 1, 2],
     [2, 3, 5]
 ]
-
-check_inverse(matrix_1)
-check_inverse(matrix_2)
-check_inverse(matrix_3)
+if __name__ == "__main__":
+    check_inverse(matrix_1)
+    check_inverse(matrix_2)
+    check_inverse(matrix_3)

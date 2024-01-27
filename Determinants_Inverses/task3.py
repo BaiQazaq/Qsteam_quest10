@@ -1,7 +1,7 @@
 # Create a function to compute the inverse of a 2x2 matrix.
 from task1 import determinant_2_2
 
-def adjoint_mtrx(mtrx):
+def adjoint_mtrx(mtrx):     #транспонированние матрицы
     new_mtrx = []
     row1 = [mtrx[1][1], mtrx[0][1] * -1]
     row2 = [mtrx[1][0]* -1, mtrx[0][0]]

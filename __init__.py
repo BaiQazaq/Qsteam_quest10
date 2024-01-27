@@ -1,0 +1,3 @@
+from Determinants_Inverses.task3 import inverse_mtrx as inver_2x2
+from Determinants_Inverses.task4 import inverse_mtrx as inver_3x3
+from Determinants_Inverses.task5 import check_inverse
