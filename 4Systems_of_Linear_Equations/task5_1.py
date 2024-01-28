@@ -32,3 +32,5 @@ B = np.array([5, 10])
 
 solution = gaussian_elimination(A, B)
 print("Solution:", solution)
+
+
